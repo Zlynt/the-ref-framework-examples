@@ -2,7 +2,7 @@ import ReactDOM from "react-dom";
 import Router from "../Router";
 
 import { BodyStyle } from "./style";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Body() {
   const { location, navigate } = Router();

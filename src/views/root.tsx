@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 import TopBar from "./components/TopBar";
 import Body from "./components/Body";
+import React from "react";
 
 function Root(props: any) {
   return (

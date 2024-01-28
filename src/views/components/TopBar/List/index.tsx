@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react";
+import React, { PropsWithChildren } from "react";
 import { TopBarStyle } from "./style";
 
 export default function List({ children }: PropsWithChildren) {
